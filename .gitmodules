@@ -26,10 +26,6 @@
 	path = asset/unit/router
 	url = https://github.com/onepiece-framework/unit-router.git
 	branch = 2021
-[submodule "asset/unit/template"]
-	path = asset/unit/template
-	url = https://github.com/onepiece-framework/unit-template.git
-	branch = 2021
 [submodule "asset/unit/webpack"]
 	path = asset/unit/webpack
 	url = https://github.com/onepiece-framework/unit-webpack.git
