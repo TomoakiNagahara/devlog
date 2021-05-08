@@ -21,9 +21,25 @@ app:/asset/template/layout
 app:/asset/config/layout.php
 ```
 
+# Config
+
+```app:/asset/config/layout.php
+return [
+  'execute'   =>  true,
+  'name'      => 'white',
+  'darkmode'  =>  true,
+];
+```
+
 # Usage
 
- How to dynamic switch templates.
+ How to dynamic disabled the Layout.
+
+```
+Config::Set('layout', ['name'=>'layout_name']);
+```
+
+ How to dynamic switch the Layout.
 
 ```
 Config::Set('layout', ['name'=>'layout_name']);
