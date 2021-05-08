@@ -3,7 +3,7 @@ Template for onepiece-framework
 
 # File location
 
- The template files is placed in the following directory.
+ Place the template file in `app:/asset/template/` directory.
  And also supports sub directories.
  If there is a file with the same name in the current directory, the file in the current directory will be read first.
 
